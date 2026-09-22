@@ -21,7 +21,7 @@ CIRCL official test, n=121, `deepseek-v4-flash`. A second LLM pass (exploit-refi
 | Live (no exploit-refine) | 0.198 | 0.107 | 0.161 | 0.107 | ~$0.01 |
 | Live (+ exploit-refine) | **0.504** | **0.288** | 0.284 | **0.393** | **~$0.02** |
 
-> **Read this before citing 0.504.** It is a post-hoc ablation on the frozen CIRCL test list: the gates, the refine step, and the retrieval priors were all tuned on errors from that same list. The artifacts also predate the current pipeline, from a version before ICS and mobile technique IDs were stripped and while retrieved snippets could still ground a quote. HEAD is `LIVE_PIPELINE_VERSION = "3"` (`evals/golden/live_attack.py`) and will not reproduce 0.504. Treat the table as a frozen historical artifact, not current skill, and do not mix partial Qwen runs into it. Cite [`docs/EVAL_REPORT.md`](docs/EVAL_REPORT.md).
+> 0.504 is a post-hoc ablation on the frozen CIRCL test list: the gates, the refine step, and the retrieval priors were all tuned on errors from that same list. The artifacts also predate the current pipeline, from a version before ICS and mobile technique IDs were stripped and while retrieved snippets could still ground a quote. HEAD is `LIVE_PIPELINE_VERSION = "3"` (`evals/golden/live_attack.py`) and won't reproduce 0.504. Treat the table as a frozen historical artifact, not current skill, and don't mix partial Qwen runs into it. If you're citing a number, cite [`docs/EVAL_REPORT.md`](docs/EVAL_REPORT.md) instead.
 
 `hit` = at least one technique right. `recall@5` = fraction of expert techniques found. `P@5` = fraction of the agent's named techniques that were correct (`hits / len(pred[:5])` over variable-length lists, which is not CIRCL's ranking P@5). The repo never reports a blended "accuracy."
 
@@ -90,7 +90,7 @@ That single-question path is a demo. The main surfaces are the Eval Lab and the 
 
 ## Why honest measurement is the hard part
 
-Public datasets exist where experts have already mapped CVEs to techniques. Those are the answer key, called **gold**. If the agent can look up the CVE it is being asked about, it will score beautifully and tell you nothing. Everything here is arranged so that cannot happen.
+Public datasets exist where experts have already mapped CVEs to techniques. Those are the answer key, called **gold**. If the agent can look up the CVE it's being asked about, it will score perfectly and tell you nothing about how good it actually is, so this repo goes out of its way to keep that from happening.
 
 ```mermaid
 flowchart TB
@@ -210,10 +210,7 @@ The model may only pick from the candidate set. Five techniques are common enoug
 
 ### 4. Exploitation-refine (pass 2)
 
-Exploitation is the weaker of the two heads, so a second LLM call reviews the draft. It has only two powers:
-
-- **Veto**: remove IDs when pass 1 predicted some. It cannot invent new techniques.
-- **Fill**: add at most 2 IDs when pass 1 came back empty.
+Exploitation is the weaker of the two heads, so a second LLM call reviews the draft. It's limited to two moves: when pass 1 predicted something, it can only remove IDs, never add new ones; when pass 1 came back empty, it can add up to 2.
 
 Turn it off with `--no-exploit-refine` for one LLM call per case. On the of-record CIRCL run, doing that dropped hit from 0.50 to 0.20.
 
@@ -234,9 +231,9 @@ Only then does the scorer compare that union against CIRCL/CTID gold.
 
 The default page when the app launches. A good first Live run:
 
-1. Task `cve_to_attack`, gold **CIRCL test (n=121)**
+1. Task `cve_to_attack`, gold CIRCL test (n=121)
 2. Model `deepseek-v4-flash` (needs `EXPLABS_API_KEY`)
-3. Set a small **Limit** first, say 10, before committing to the full held-out set
+3. Set a small Limit first, say 10, before committing to the full held-out set
 
 | Page | Role |
 |------|------|
