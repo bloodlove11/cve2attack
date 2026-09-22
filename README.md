@@ -33,9 +33,24 @@ Model × RAG grid (n=20, comparative only, and too small to be of record): DeepS
 
 ## What it looks like
 
-![Live ATT&CK mapping pipeline](docs/diagrams/live-attack-pipeline.png)
+```mermaid
+flowchart LR
+    A["CVE id<br/><i>CVE-YYYY-N</i>"] --> B["Enrich<br/><i>NVD / Zenodo</i>"]
+    B --> C["Tech docs<br/><i>lexical RAG</i>"]
+    B --> D["Neighbors<br/><i>k=3, target excluded</i>"]
+    B -.->|"always-on description"| E
+    C --> E["Pass 1<br/><i>two heads</i>"]
+    D --> E
+    E --> F["Pass 2<br/><i>veto / fill</i>"]
+    F --> G["Gates<br/><i>quote · cap</i>"]
+    G --> H["Union<br/><i>≤ 8 T-IDs</i>"]
 
-Editable source: [`docs/diagrams/live-attack-pipeline.html`](docs/diagrams/live-attack-pipeline.html). Eval Lab, CLI, and Chat share this pipeline.
+    style E fill:#fdf0e6,stroke:#eb6c36
+    style G fill:#fdf0e6,stroke:#eb6c36
+    style H fill:#e8f6ef,stroke:#1e8449
+```
+
+Eval Lab, CLI, and Chat all call the same shared pipeline (`evals.golden.live_attack.predict_cve_to_attack`).
 
 ![Eval Lab + Chat demo placeholder](docs/diagrams/eval-lab-demo-placeholder.svg)
 
