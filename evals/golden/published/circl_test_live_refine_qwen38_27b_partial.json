@@ -1,0 +1,5410 @@
+{
+  "case_ids": [
+    "circl-CVE-2018-15771",
+    "circl-CVE-2013-1493",
+    "circl-CVE-2019-15974",
+    "circl-CVE-2019-1886",
+    "circl-CVE-2012-1535",
+    "circl-CVE-2011-3172",
+    "circl-CVE-2022-22947",
+    "circl-CVE-2025-21333",
+    "circl-CVE-2017-8570",
+    "circl-CVE-2024-24919",
+    "circl-CVE-2020-11054",
+    "circl-CVE-2010-0817",
+    "circl-CVE-2019-0926",
+    "circl-CVE-2014-3566",
+    "circl-CVE-2022-20703",
+    "circl-CVE-2020-3440",
+    "circl-CVE-2020-15132",
+    "circl-CVE-2020-1111",
+    "circl-CVE-2013-4854",
+    "circl-CVE-2016-6366",
+    "circl-CVE-2023-20887",
+    "circl-CVE-2015-2387",
+    "circl-CVE-2022-41073",
+    "circl-CVE-2014-0324",
+    "circl-CVE-2019-16784",
+    "circl-CVE-2014-1776",
+    "circl-CVE-2020-9804",
+    "circl-CVE-2018-18990",
+    "circl-CVE-2020-1495",
+    "circl-CVE-2020-11082",
+    "circl-CVE-2018-15764",
+    "circl-CVE-2019-1941",
+    "circl-CVE-2020-15162",
+    "circl-CVE-2018-15961",
+    "circl-CVE-2020-5369",
+    "circl-CVE-2019-3780",
+    "circl-CVE-2020-5264",
+    "circl-CVE-2012-0754",
+    "circl-CVE-2014-8439",
+    "circl-CVE-2018-11075",
+    "circl-CVE-2024-57727",
+    "circl-CVE-2022-37969",
+    "circl-CVE-2017-6922",
+    "circl-CVE-2019-1458",
+    "circl-CVE-2018-17908",
+    "circl-CVE-2011-0096",
+    "circl-CVE-2009-3041",
+    "circl-CVE-2021-34473",
+    "circl-CVE-2018-8111",
+    "circl-CVE-2020-5281",
+    "circl-CVE-2016-0167",
+    "circl-CVE-2023-7024",
+    "circl-CVE-2018-10589",
+    "circl-CVE-2023-36845",
+    "circl-CVE-2024-4761",
+    "circl-CVE-2012-1723",
+    "circl-CVE-2019-1620",
+    "circl-CVE-2023-47565",
+    "circl-CVE-2025-32709",
+    "circl-CVE-2018-5463",
+    "circl-CVE-2022-43769",
+    "circl-CVE-2016-0165",
+    "circl-CVE-2020-5231",
+    "circl-CVE-2020-11044",
+    "circl-CVE-2014-7247",
+    "circl-CVE-2023-22527",
+    "circl-CVE-2013-3163",
+    "circl-CVE-2015-0071",
+    "circl-CVE-2025-24991",
+    "circl-CVE-2020-3177",
+    "circl-CVE-2021-42237",
+    "circl-CVE-2020-3416",
+    "circl-CVE-2012-6685",
+    "circl-CVE-2021-44077",
+    "circl-CVE-2018-7526",
+    "circl-CVE-2013-5065",
+    "circl-CVE-2018-5459",
+    "circl-CVE-2017-8291",
+    "circl-CVE-2020-3309",
+    "circl-CVE-2019-16760",
+    "circl-CVE-2019-0880",
+    "circl-CVE-2020-5250",
+    "circl-CVE-2018-17910",
+    "circl-CVE-2010-1424",
+    "circl-CVE-2013-5057",
+    "circl-CVE-2023-6548",
+    "circl-CVE-2014-6332",
+    "circl-CVE-2019-13922",
+    "circl-CVE-2018-18995",
+    "circl-CVE-2016-5062",
+    "circl-CVE-2020-3513",
+    "circl-CVE-2011-2462",
+    "circl-CVE-2023-5217",
+    "circl-CVE-2009-3129",
+    "circl-CVE-2020-5267",
+    "circl-CVE-2016-1019",
+    "circl-CVE-2021-36380",
+    "circl-CVE-2023-36844",
+    "circl-CVE-2020-1020",
+    "circl-CVE-2024-37085",
+    "circl-CVE-2013-7102",
+    "circl-CVE-2020-11896",
+    "circl-CVE-2018-18987",
+    "circl-CVE-2018-8852",
+    "circl-CVE-2023-26360",
+    "circl-CVE-2020-0758",
+    "circl-CVE-2019-1704",
+    "circl-CVE-2015-0072",
+    "circl-CVE-2020-4068",
+    "circl-CVE-2023-27524",
+    "circl-CVE-2025-21334",
+    "circl-CVE-2024-5274",
+    "circl-CVE-2018-11059",
+    "circl-CVE-2019-2729",
+    "circl-CVE-2014-1809",
+    "circl-CVE-2021-22986",
+    "circl-CVE-2024-57968",
+    "circl-CVE-2018-11088",
+    "circl-CVE-2021-34523",
+    "circl-CVE-2020-11021",
+    "circl-CVE-2010-2862"
+  ],
+  "eval_rag": true,
+  "failed_ids": [
+    "circl-CVE-2020-11044",
+    "circl-CVE-2018-18995",
+    "circl-CVE-2016-5062",
+    "circl-CVE-2020-3513",
+    "circl-CVE-2011-2462",
+    "circl-CVE-2023-5217",
+    "circl-CVE-2009-3129",
+    "circl-CVE-2020-5267",
+    "circl-CVE-2016-1019",
+    "circl-CVE-2021-36380",
+    "circl-CVE-2023-36844",
+    "circl-CVE-2020-1020",
+    "circl-CVE-2024-37085",
+    "circl-CVE-2013-7102",
+    "circl-CVE-2020-11896",
+    "circl-CVE-2018-18987",
+    "circl-CVE-2018-8852",
+    "circl-CVE-2023-26360",
+    "circl-CVE-2020-0758",
+    "circl-CVE-2019-1704",
+    "circl-CVE-2015-0072",
+    "circl-CVE-2020-4068",
+    "circl-CVE-2023-27524",
+    "circl-CVE-2025-21334",
+    "circl-CVE-2024-5274",
+    "circl-CVE-2018-11059",
+    "circl-CVE-2019-2729",
+    "circl-CVE-2014-1809",
+    "circl-CVE-2021-22986",
+    "circl-CVE-2024-57968",
+    "circl-CVE-2018-11088",
+    "circl-CVE-2021-34523",
+    "circl-CVE-2020-11021",
+    "circl-CVE-2010-2862"
+  ],
+  "heldout": true,
+  "jobs": 6,
+  "metrics_all_rows_polluted": {
+    "attack": {
+      "canonical_hit": 0.36363636363636365,
+      "canonical_hit_rate": 0.36363636363636365,
+      "canonical_recall_at_k": 0.2148919262555626,
+      "exploitation_canonical_hit": 0.35714285714285715,
+      "exploitation_canonical_hit_rate": 0.35714285714285715,
+      "exploitation_canonical_recall_at_k": 0.3392857142857143,
+      "exploitation_hit": 0.35714285714285715,
+      "exploitation_hit_rate": 0.35714285714285715,
+      "exploitation_recall_at_k": 0.3392857142857143,
+      "hit": 0.33884297520661155,
+      "hit_rate": 0.33884297520661155,
+      "n": 121,
+      "precision_at_k": 0.27892561983471076,
+      "primary_impact_canonical_hit": 0.16216216216216217,
+      "primary_impact_canonical_hit_rate": 0.16216216216216217,
+      "primary_impact_canonical_recall_at_k": 0.16891891891891891,
+      "primary_impact_hit": 0.13513513513513514,
+      "primary_impact_hit_rate": 0.13513513513513514,
+      "primary_impact_recall_at_k": 0.12837837837837837,
+      "recall_at_k": 0.18321148548421273
+    },
+    "attack_canonical_hit_rate": 0.36363636363636365,
+    "attack_canonical_recall_at_k": 0.2148919262555626,
+    "attack_exploitation_canonical_hit_rate": 0.35714285714285715,
+    "attack_exploitation_hit_rate": 0.35714285714285715,
+    "attack_hit_rate": 0.33884297520661155,
+    "attack_primary_impact_canonical_hit_rate": 0.16216216216216217,
+    "attack_primary_impact_hit_rate": 0.13513513513513514,
+    "attack_recall_at_k": 0.18321148548421273,
+    "canonical_hit_rate": 0.36363636363636365,
+    "canonical_recall_at_k": 0.2148919262555626,
+    "hit_rate": 0.33884297520661155,
+    "mode": "agent",
+    "n_scored": 121,
+    "n_skipped": 0,
+    "n_total": 121,
+    "precision_at_k": 0.27892561983471076,
+    "recall_at_k": 0.18321148548421273
+  },
+  "metrics_completed_only": {
+    "attack": {
+      "canonical_hit": 0.5057471264367817,
+      "canonical_hit_rate": 0.5057471264367817,
+      "canonical_recall_at_k": 0.29887267904509285,
+      "exploitation_canonical_hit": 0.5405405405405406,
+      "exploitation_canonical_hit_rate": 0.5405405405405406,
+      "exploitation_canonical_recall_at_k": 0.5135135135135135,
+      "exploitation_hit": 0.5405405405405406,
+      "exploitation_hit_rate": 0.5405405405405406,
+      "exploitation_recall_at_k": 0.5135135135135135,
+      "hit": 0.47126436781609193,
+      "hit_rate": 0.47126436781609193,
+      "n": 87,
+      "precision_at_k": 0.3879310344827586,
+      "primary_impact_canonical_hit": 0.23076923076923078,
+      "primary_impact_canonical_hit_rate": 0.23076923076923078,
+      "primary_impact_canonical_recall_at_k": 0.2403846153846154,
+      "primary_impact_hit": 0.19230769230769232,
+      "primary_impact_hit_rate": 0.19230769230769232,
+      "primary_impact_recall_at_k": 0.18269230769230768,
+      "recall_at_k": 0.2548113763631005
+    },
+    "attack_canonical_hit_rate": 0.5057471264367817,
+    "attack_canonical_recall_at_k": 0.29887267904509285,
+    "attack_exploitation_canonical_hit_rate": 0.5405405405405406,
+    "attack_exploitation_hit_rate": 0.5405405405405406,
+    "attack_hit_rate": 0.47126436781609193,
+    "attack_primary_impact_canonical_hit_rate": 0.23076923076923078,
+    "attack_primary_impact_hit_rate": 0.19230769230769232,
+    "attack_recall_at_k": 0.2548113763631005,
+    "canonical_hit_rate": 0.5057471264367817,
+    "canonical_recall_at_k": 0.29887267904509285,
+    "hit_rate": 0.47126436781609193,
+    "mode": "agent",
+    "n_scored": 87,
+    "n_skipped": 0,
+    "n_total": 87,
+    "precision_at_k": 0.3879310344827586,
+    "recall_at_k": 0.2548113763631005
+  },
+  "mode": "agent",
+  "model": "qwen3.8-27b",
+  "n_completed_ok": 87,
+  "n_failed": 34,
+  "note": "PARTIAL precision-refine on qwen3.8-27b. Hit free daily $5 limit mid-run (resets 00:00 UTC). Metrics below are completed-only (n=87), NOT full CIRCL and NOT deepseek of-record.",
+  "protocol": "circl_test",
+  "refine_exploitation": true,
+  "results": [
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1078.001"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1078.001"
+        ]
+      },
+      "id": "circl-CVE-2018-15771",
+      "prediction": {
+        "attack_techniques": [
+          "T1059",
+          "T1083"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1059"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1083"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2013-1493",
+      "prediction": {
+        "attack_techniques": [
+          "T1203",
+          "T1499.004"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1565.002"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1565.002"
+        ]
+      },
+      "id": "circl-CVE-2019-15974",
+      "prediction": {
+        "attack_techniques": [
+          "T1566",
+          "T1557"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1566"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1557"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1489"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1489"
+        ]
+      },
+      "id": "circl-CVE-2019-1886",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1499"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1105",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1105"
+        ]
+      },
+      "id": "circl-CVE-2012-1535",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.002",
+          "T1499.004"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1078.003"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2011-3172",
+      "prediction": {
+        "attack_techniques": [
+          "T1556.003"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1556.003"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190",
+          "T1486"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2022-22947",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.3333333333333333
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1068"
+        ],
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "primary_impact": [
+          "T1003"
+        ]
+      },
+      "id": "circl-CVE-2025-21333",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2017-8570",
+      "prediction": {
+        "attack_techniques": [
+          "T1203"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1003.003",
+          "T1003.008",
+          "T1005",
+          "T1059.004",
+          "T1202"
+        ],
+        "exploitation_techniques": [
+          "T1202"
+        ],
+        "primary_impact": [
+          "T1005"
+        ]
+      },
+      "id": "circl-CVE-2024-24919",
+      "prediction": {
+        "attack_techniques": [
+          "T1210",
+          "T1082"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1082"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1190"
+        ]
+      },
+      "id": "circl-CVE-2020-11054",
+      "prediction": {
+        "attack_techniques": [
+          "T1608.004",
+          "T1557"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1608.004"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1557"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2010-0817",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203",
+          "T1499.004",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2019-0926",
+      "prediction": {
+        "attack_techniques": [
+          "T1189",
+          "T1574"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1574"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 0.5,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 0.5,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 0.5,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1557"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2014-3566",
+      "prediction": {
+        "attack_techniques": [
+          "T1557"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1557"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1203"
+        ],
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2022-20703",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1059.004",
+          "T1499"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1059.004",
+          "T1499"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1204.002",
+          "T1565.001",
+          "T1566"
+        ],
+        "exploitation_techniques": [
+          "T1204.002",
+          "T1566"
+        ],
+        "primary_impact": [
+          "T1565.001"
+        ]
+      },
+      "id": "circl-CVE-2020-3440",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1565.001"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1565.001"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 0.3333333333333333
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1589"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1589"
+        ]
+      },
+      "id": "circl-CVE-2020-15132",
+      "prediction": {
+        "attack_techniques": [
+          "T1589.002",
+          "T1589"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1589.002",
+          "T1589"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 2.0,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 2.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1068",
+          "T1136",
+          "T1485",
+          "T1565"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1068"
+        ]
+      },
+      "id": "circl-CVE-2020-1111",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.002",
+          "T1005",
+          "T1574"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1005",
+          "T1574"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.2,
+        "hit": 1.0,
+        "precision_at_k": 0.3333333333333333,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.2
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2013-4854",
+      "prediction": {
+        "attack_techniques": [
+          "T1210",
+          "T1499"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2016-6366",
+      "prediction": {
+        "attack_techniques": [
+          "T1210"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2023-20887",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1059"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190",
+          "T1059"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2015-2387",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1078",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1068"
+        ]
+      },
+      "id": "circl-CVE-2022-41073",
+      "prediction": {
+        "attack_techniques": [
+          "T1078"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.3333333333333333
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2014-0324",
+      "prediction": {
+        "attack_techniques": [
+          "T1203"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059.006",
+          "T1068",
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1068",
+          "T1190"
+        ]
+      },
+      "id": "circl-CVE-2019-16784",
+      "prediction": {
+        "attack_techniques": [
+          "T1574.008"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1574.008"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203",
+          "T1499"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2014-1776",
+      "prediction": {
+        "attack_techniques": [
+          "T1203",
+          "T1499.004"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.6666666666666666,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "recall_at_k": 0.3333333333333333
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1091",
+          "T1499.004"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2020-9804",
+      "prediction": {
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1005"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1005"
+        ]
+      },
+      "id": "circl-CVE-2018-18990",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1591"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1591"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1136",
+          "T1204.002",
+          "T1485",
+          "T1499.004",
+          "T1565",
+          "T1566",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1204.002",
+          "T1566"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2020-1495",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.002",
+          "T1566",
+          "T1499.004",
+          "T1574"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.002",
+          "T1566"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1204.001",
+          "T1557"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ]
+      },
+      "id": "circl-CVE-2020-11082",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2018-15764",
+      "prediction": {
+        "attack_techniques": [
+          "T1210"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1204.001",
+          "T1557"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ]
+      },
+      "id": "circl-CVE-2019-1941",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.001",
+          "T1059.007"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.6666666666666666,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 0.6666666666666666
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1185"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2020-15162",
+      "prediction": {
+        "attack_techniques": [
+          "T1189",
+          "T1059.007"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1491",
+          "T1491.002",
+          "T1505.003"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1491.002"
+        ]
+      },
+      "id": "circl-CVE-2018-15961",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.25,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.25
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1068"
+        ]
+      },
+      "id": "circl-CVE-2020-5369",
+      "prediction": {
+        "attack_techniques": [
+          "T1068",
+          "T1210",
+          "T1005"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068",
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1005"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 0.3333333333333333,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1552.001"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1552.001"
+        ]
+      },
+      "id": "circl-CVE-2019-3780",
+      "prediction": {
+        "attack_techniques": [
+          "T1552.001"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1552.001"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1204.001",
+          "T1557"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ]
+      },
+      "id": "circl-CVE-2020-5264",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.001",
+          "T1059.007"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.6666666666666666,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 0.6666666666666666
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1105",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1105"
+        ]
+      },
+      "id": "circl-CVE-2012-0754",
+      "prediction": {
+        "attack_techniques": [
+          "T1203",
+          "T1499.004"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2014-8439",
+      "prediction": {
+        "attack_techniques": [
+          "T1189",
+          "T1499.004",
+          "T1105"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004",
+          "T1105"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1185",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ]
+      },
+      "id": "circl-CVE-2018-11075",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.001",
+          "T1059.007"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 0.3333333333333333
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1059",
+          "T1190",
+          "T1552.001",
+          "T1552.004"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1003",
+          "T1552.001",
+          "T1552.004"
+        ]
+      },
+      "id": "circl-CVE-2024-57727",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1602"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1602"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.2,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.2
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1068",
+          "T1078"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1068"
+        ]
+      },
+      "id": "circl-CVE-2022-37969",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.3333333333333333
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1083",
+          "T1211"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2017-6922",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2019-1458",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1685"
+        ],
+        "exploitation_techniques": [
+          "T1685"
+        ],
+        "primary_impact": [
+          "T1068"
+        ]
+      },
+      "id": "circl-CVE-2018-17908",
+      "prediction": {
+        "attack_techniques": [
+          "T1546.016",
+          "T1548.002"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1546.016"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1548.002"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2011-0096",
+      "prediction": {
+        "attack_techniques": [
+          "T1189"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2009-3041",
+      "prediction": {
+        "attack_techniques": [
+          "T1497"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1497"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1048.003",
+          "T1053.005",
+          "T1136",
+          "T1190",
+          "T1486"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1053.005"
+        ]
+      },
+      "id": "circl-CVE-2021-34473",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1505.003"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1505.003"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.2,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.2
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1136",
+          "T1204.002",
+          "T1485",
+          "T1499.004",
+          "T1565",
+          "T1566",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1204.002",
+          "T1566"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2018-8111",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.002",
+          "T1499.004",
+          "T1574"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.375,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 0.5,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 0.375
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2020-5281",
+      "prediction": {
+        "attack_techniques": [
+          "T1210",
+          "T1602"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1602"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1608"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2016-0167",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2023-7024",
+      "prediction": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 0.5,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1202"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1202"
+        ]
+      },
+      "id": "circl-CVE-2018-10589",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1574"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1574"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2023-36845",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059"
+        ],
+        "exploitation_techniques": [
+          "T1059"
+        ],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2024-4761",
+      "prediction": {
+        "attack_techniques": [
+          "T1189"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2012-1723",
+      "prediction": {
+        "attack_techniques": [
+          "T1210",
+          "T1565.003"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1565.003"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1105"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1105"
+        ]
+      },
+      "id": "circl-CVE-2019-1620",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1059.008"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1059.008"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1496",
+          "T1498"
+        ],
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1496"
+        ]
+      },
+      "id": "circl-CVE-2023-47565",
+      "prediction": {
+        "attack_techniques": [
+          "T1059.008"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1059.008"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1059",
+          "T1068",
+          "T1543",
+          "T1608.001"
+        ],
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "primary_impact": [
+          "T1003",
+          "T1059",
+          "T1543",
+          "T1608.001"
+        ]
+      },
+      "id": "circl-CVE-2025-32709",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.2,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.2
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2018-5463",
+      "prediction": {
+        "attack_techniques": [
+          "T1203",
+          "T1574"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1574"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1203"
+        ],
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2022-43769",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1608"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2016-0165",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1078.001",
+          "T1136"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1078.001"
+        ]
+      },
+      "id": "circl-CVE-2020-5231",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ]
+      },
+      "id": "circl-CVE-2020-11044",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2014-7247",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.002"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1221",
+          "T1496"
+        ],
+        "exploitation_techniques": [
+          "T1221"
+        ],
+        "primary_impact": [
+          "T1496"
+        ]
+      },
+      "id": "circl-CVE-2023-22527",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1203"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2013-3163",
+      "prediction": {
+        "attack_techniques": [
+          "T1189",
+          "T1499.004"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203",
+          "T1204.001"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2015-0071",
+      "prediction": {
+        "attack_techniques": [
+          "T1189"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.3333333333333333
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1091"
+        ],
+        "exploitation_techniques": [
+          "T1091"
+        ],
+        "primary_impact": [
+          "T1005"
+        ]
+      },
+      "id": "circl-CVE-2025-24991",
+      "prediction": {
+        "attack_techniques": [
+          "T1003.001"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1003.001"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1005"
+        ]
+      },
+      "id": "circl-CVE-2020-3177",
+      "prediction": {
+        "attack_techniques": [
+          "T1190",
+          "T1005"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1005"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1059"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2021-42237",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1078",
+          "T1542.004"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1542.004"
+        ]
+      },
+      "id": "circl-CVE-2020-3416",
+      "prediction": {
+        "attack_techniques": [
+          "T1078",
+          "T1037",
+          "T1547",
+          "T1542"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1037",
+          "T1547",
+          "T1542"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 0.25,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1046"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2012-6685",
+      "prediction": {
+        "attack_techniques": [
+          "T1203",
+          "T1005"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1005"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1003.003",
+          "T1027",
+          "T1047",
+          "T1070.004",
+          "T1087.002",
+          "T1136",
+          "T1140",
+          "T1190",
+          "T1218",
+          "T1505.003",
+          "T1560.001",
+          "T1573.001"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1505.003"
+        ]
+      },
+      "id": "circl-CVE-2021-44077",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.07692307692307693,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.07692307692307693
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1005"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1005"
+        ]
+      },
+      "id": "circl-CVE-2018-7526",
+      "prediction": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1548.002"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2013-5065",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "zenodo",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1485",
+          "T1565.001"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2018-5459",
+      "prediction": {
+        "attack_techniques": [
+          "T1210",
+          "T1499.004"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2017-8291",
+      "prediction": {
+        "attack_techniques": [
+          "T1203",
+          "T1059"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1203",
+          "T1059"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1133",
+          "T1190",
+          "T1565.001",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1133",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2020-3309",
+      "prediction": {
+        "attack_techniques": [
+          "T1210",
+          "T1601"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1601"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1190"
+        ]
+      },
+      "id": "circl-CVE-2019-16760",
+      "prediction": {
+        "attack_techniques": [
+          "T1195.001"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1195.001"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2019-0880",
+      "prediction": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1036"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1036"
+        ]
+      },
+      "id": "circl-CVE-2020-5250",
+      "prediction": {
+        "attack_techniques": [
+          "T1133",
+          "T1213"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1133"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1213"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1574"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2018-17910",
+      "prediction": {
+        "attack_techniques": [
+          "T1574"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [],
+        "llm_calls": 1,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1574"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2010-1424",
+      "prediction": {
+        "attack_techniques": [
+          "T1204.002"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2013-5057",
+      "prediction": {
+        "attack_techniques": [
+          "T1175",
+          "T1189"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1175",
+          "T1189"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1055"
+        ],
+        "exploitation_techniques": [
+          "T1055"
+        ],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2023-6548",
+      "prediction": {
+        "attack_techniques": [
+          "T1210"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 2,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": true,
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2014-6332",
+      "prediction": {
+        "attack_techniques": [
+          "T1189"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "llm_calls": 1,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "hit": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.5
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "expected": {
+        "attack_techniques": [
+          "T1552"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2019-13922",
+      "prediction": {
+        "attack_techniques": [
+          "T1210",
+          "T1212"
+        ],
+        "enrichment_source": "nvd",
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "llm_calls": 1,
+        "mode": "agent_llm",
+        "prep_cache_hit": true,
+        "primary_impact": [
+          "T1212"
+        ],
+        "refine_exploitation": true
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1213",
+          "T1529"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2018-18995",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2016-5062",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1078",
+          "T1542.004"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1542.004"
+        ]
+      },
+      "id": "circl-CVE-2020-3513",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1204.002"
+        ],
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2011-2462",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1204.001",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "primary_impact": [
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2023-5217",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2009-3129",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1185"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2020-5267",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1105",
+          "T1189",
+          "T1486"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1105"
+        ]
+      },
+      "id": "circl-CVE-2016-1019",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059.004",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059.004"
+        ]
+      },
+      "id": "circl-CVE-2021-36380",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203"
+        ],
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1190"
+        ]
+      },
+      "id": "circl-CVE-2023-36844",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1566"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2020-1020",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1078",
+          "T1608.001"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1068"
+        ]
+      },
+      "id": "circl-CVE-2024-37085",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2013-7102",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203",
+          "T1499"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2020-11896",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1499.004",
+          "T1574"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2018-18987",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1563"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1563"
+        ]
+      },
+      "id": "circl-CVE-2018-8852",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1003.001",
+          "T1036.005",
+          "T1046",
+          "T1059.007",
+          "T1071.001",
+          "T1105",
+          "T1190",
+          "T1484.001",
+          "T1505.003"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ]
+      },
+      "id": "circl-CVE-2023-26360",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1098"
+        ],
+        "exploitation_techniques": [
+          "T1098"
+        ],
+        "primary_impact": [
+          "T1068"
+        ]
+      },
+      "id": "circl-CVE-2020-0758",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1499"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1499"
+        ]
+      },
+      "id": "circl-CVE-2019-1704",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2015-0072",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1091",
+          "T1133",
+          "T1189",
+          "T1190",
+          "T1204.002",
+          "T1499.004",
+          "T1566",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1091",
+          "T1133",
+          "T1189",
+          "T1190",
+          "T1204.002",
+          "T1566"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ]
+      },
+      "id": "circl-CVE-2020-4068",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1078",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1078"
+        ]
+      },
+      "id": "circl-CVE-2023-27524",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1068"
+        ],
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "primary_impact": [
+          "T1003"
+        ]
+      },
+      "id": "circl-CVE-2025-21334",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1203"
+        ]
+      },
+      "id": "circl-CVE-2024-5274",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1185",
+          "T1189"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ]
+      },
+      "id": "circl-CVE-2018-11059",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2019-2729",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2014-1809",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1090",
+          "T1133",
+          "T1190",
+          "T1485"
+        ],
+        "exploitation_techniques": [
+          "T1133",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059",
+          "T1090"
+        ]
+      },
+      "id": "circl-CVE-2021-22986",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "zenodo",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1078"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1059"
+        ]
+      },
+      "id": "circl-CVE-2024-57968",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1552"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1552"
+        ]
+      },
+      "id": "circl-CVE-2018-11088",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2021-34523",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1005"
+        ]
+      },
+      "id": "circl-CVE-2020-11021",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    },
+    {
+      "correct": false,
+      "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "exploitation_techniques": [],
+        "primary_impact": []
+      },
+      "id": "circl-CVE-2010-2862",
+      "prediction": {
+        "attack_techniques": [],
+        "enrichment_source": "nvd",
+        "error": "Error code: 429 - {'error': {'message': \"You've hit the free limit for qwen3.8-27b ($5 per day). It resets at 00:00 UTC. Credit overflow -- keeping going on your credits past the free limit, for all free models in your organization -- unlocks once your organization has a card on file and the settled $1 verification; any purchase or Pro subscription unlocks it too and turns it on automatically. Requests using your own provider keys (BYOK) are never rate-limited.\", 'type': 'insufficient_quota', 'param': None, 'code': 'free_limit_reached'}}",
+        "exploitation_techniques": [],
+        "llm_calls": null,
+        "mode": "agent_llm_failed",
+        "prep_cache_hit": true,
+        "primary_impact": [],
+        "refine_exploitation": null
+      },
+      "scores": {
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "hit": 0.0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0
+      },
+      "skipped": false,
+      "task": "cve_to_attack"
+    }
+  ],
+  "task": "cve_to_attack"
+}

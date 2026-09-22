@@ -1,0 +1,52 @@
+{
+  "source": "https://github.com/mitre-attack/attack-stix-data",
+  "attack_version": "19.2",
+  "generated_at": "2026-09-08T00:33:42.398177+00:00",
+  "domains": [
+    {
+      "domain": "enterprise",
+      "attack_version": "19.2",
+      "n_objects": 26086,
+      "collection": "Enterprise ATT&CK",
+      "n_attack_patterns": 858,
+      "n_current": 709,
+      "n_revoked": 149,
+      "n_revoked_by": 149
+    },
+    {
+      "domain": "mobile",
+      "attack_version": "19.2",
+      "n_objects": 2635,
+      "collection": "Mobile ATT&CK",
+      "n_attack_patterns": 190,
+      "n_current": 137,
+      "n_revoked": 53,
+      "n_revoked_by": 52
+    },
+    {
+      "domain": "ics",
+      "attack_version": "19.2",
+      "n_objects": 2173,
+      "collection": "ICS ATT&CK",
+      "n_attack_patterns": 118,
+      "n_current": 109,
+      "n_revoked": 9,
+      "n_revoked_by": 9
+    }
+  ],
+  "n_current": 955,
+  "n_parents": 414,
+  "n_subtechniques": 541,
+  "n_revoked_mapped": 210,
+  "files": {
+    "techniques": "attack_techniques_min.json",
+    "revoked_by": "attack_revoked_by.json",
+    "techniques_sha256": "c348f21a0730f6069a5ba02128fcdf28f1f4b6abb2786afb7389b0f45486decc",
+    "revoked_by_sha256": "d79ca522aa92533cd24ea1e00cc895e3993f0990a8f463077555a85b7a153321"
+  },
+  "urls": {
+    "enterprise-attack": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-19.2.json",
+    "mobile-attack": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack-19.2.json",
+    "ics-attack": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack-19.2.json"
+  }
+}

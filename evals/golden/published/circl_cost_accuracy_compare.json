@@ -1,0 +1,95 @@
+{
+  "title": "CIRCL golden eval cost × accuracy comparison",
+  "generated_at": "2026-09-08T19:30:00+00:00",
+  "protocol": "circl_test",
+  "n_full": 121,
+  "pricing_source": "GET https://api.experientiallabs.ai/api/models/<slug> (host-managed waterfall)",
+  "token_sample": {
+    "model": "deepseek-v4-flash",
+    "n_cases": 3,
+    "case_ids": [
+      "circl-CVE-2018-15771",
+      "circl-CVE-2013-1493",
+      "circl-CVE-2019-15974"
+    ],
+    "refine": {
+      "llm_calls": 2,
+      "avg_prompt_tokens": 3366,
+      "avg_completion_tokens": 222,
+      "avg_total_tokens": 3588,
+      "observed_usage_cost_usd": 0.0
+    },
+    "no_refine": {
+      "llm_calls": 1,
+      "avg_prompt_tokens": 1789,
+      "avg_completion_tokens": 97,
+      "avg_total_tokens": 1886,
+      "observed_usage_cost_usd": 0.0
+    },
+    "note": "Gateway returned usage.cost=0.0 for DeepSeek during sampling; list-price estimates still use catalog rates."
+  },
+  "catalog_rates_usd_per_million": {
+    "deepseek-v4-flash": {"input": 0.042448, "output": 0.084896},
+    "qwen3.8-27b": {"input": 0.32, "output": 2.4}
+  },
+  "rows": [
+    {
+      "model": "deepseek-v4-flash",
+      "pipeline": "live_no_refine",
+      "artifact": "evals/golden/published/circl_test_live_norefine.json",
+      "n_scored": 121,
+      "hit": 0.19834710743801653,
+      "recall_at_5": 0.10663452708907253,
+      "precision_at_5": 0.16115702479338842,
+      "est_cost_per_case_usd_list": 8.42e-05,
+      "est_cost_full_n121_usd_list": 0.0102,
+      "est_cost_per_hit_usd_list": 0.000425,
+      "of_record": false,
+      "notes": "Ablation baseline (1 LLM call/case)"
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "pipeline": "live_exploit_refine",
+      "artifact": "evals/golden/published/circl_test_live_refine.json",
+      "n_scored": 121,
+      "hit": 0.5041322314049587,
+      "recall_at_5": 0.28771102634739,
+      "precision_at_5": 0.28374655647382924,
+      "est_cost_per_case_usd_list": 0.000162,
+      "est_cost_full_n121_usd_list": 0.0196,
+      "est_cost_per_hit_usd_list": 0.000321,
+      "of_record": true,
+      "notes": "Headline of-record Live result"
+    },
+    {
+      "model": "qwen3.8-27b",
+      "pipeline": "precision_refine_partial",
+      "artifact": "evals/golden/results/circl_refine_qwen38_27b.json",
+      "n_scored": 87,
+      "n_failed_free_limit": 34,
+      "hit": 0.47126436781609193,
+      "recall_at_5": 0.2548113763631005,
+      "precision_at_5": 0.3879310344827586,
+      "est_cost_per_case_usd_list": 0.00161,
+      "est_cost_full_n121_usd_list": 0.195,
+      "est_cost_per_hit_usd_list": 0.00341,
+      "token_assumption": "same avg tokens as deepseek refine sample",
+      "of_record": false,
+      "notes": "Completed-only; free daily $5 cap stopped run. Observed free-tier charge $0 until cap."
+    },
+    {
+      "model": "qwen3.8-27b",
+      "pipeline": "precision_refine_partial_5x_completion",
+      "n_scored": 87,
+      "hit": 0.47126436781609193,
+      "recall_at_5": 0.2548113763631005,
+      "precision_at_5": 0.3879310344827586,
+      "est_cost_per_case_usd_list": 0.00374,
+      "est_cost_full_n121_usd_list": 0.453,
+      "est_cost_per_hit_usd_list": 0.00793,
+      "token_assumption": "same prompt tokens; 5× completion vs deepseek sample (reasoning sensitivity)",
+      "of_record": false,
+      "notes": "Sensitivity only — not measured"
+    }
+  ]
+}

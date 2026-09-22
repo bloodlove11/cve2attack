@@ -1,0 +1,46 @@
+# Secrets & env
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg
+
+# Live traces
+traces/*
+!traces/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Docker
+.docker/
+
+# Streamlit agent skills (environment-specific symlinks)
+.agents/skills/developing-with-streamlit
+.agents/
+
+# Golden eval run outputs (keep directory)
+evals/golden/results/latest.json
+evals/golden/results/latest.md
+evals/golden/results/multi_seed_latest.json
+evals/golden/results/multi_seed_latest.md
+evals/golden/results/model_grid/
+
+# Live non-LLM prep cache (enrich / tech / neighbors)
+evals/golden/cache/

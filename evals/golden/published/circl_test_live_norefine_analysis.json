@@ -1,0 +1,321 @@
+{
+  "n_scored": 121,
+  "hit_rate": 0.19834710743801653,
+  "empty_prediction_rate": 0.3305785123966942,
+  "top_false_positives": [
+    [
+      "T1499.004",
+      11
+    ],
+    [
+      "T1189",
+      6
+    ],
+    [
+      "T1499",
+      5
+    ],
+    [
+      "T1210",
+      5
+    ],
+    [
+      "T1557",
+      3
+    ],
+    [
+      "T1005",
+      3
+    ],
+    [
+      "T1083",
+      2
+    ],
+    [
+      "T1574",
+      2
+    ],
+    [
+      "T0866",
+      2
+    ],
+    [
+      "T1068",
+      2
+    ],
+    [
+      "T1602",
+      2
+    ],
+    [
+      "T1505.003",
+      2
+    ],
+    [
+      "T1037",
+      2
+    ],
+    [
+      "T1556.003",
+      1
+    ],
+    [
+      "T0888",
+      1
+    ]
+  ],
+  "top_false_negatives": [
+    [
+      "T1190",
+      36
+    ],
+    [
+      "T1203",
+      20
+    ],
+    [
+      "T1059",
+      20
+    ],
+    [
+      "T1068",
+      15
+    ],
+    [
+      "T1189",
+      12
+    ],
+    [
+      "T1005",
+      11
+    ],
+    [
+      "T1574",
+      10
+    ],
+    [
+      "T1204.002",
+      9
+    ],
+    [
+      "T1136",
+      6
+    ],
+    [
+      "T1105",
+      5
+    ],
+    [
+      "T1003",
+      5
+    ],
+    [
+      "T1566",
+      5
+    ],
+    [
+      "T1485",
+      5
+    ],
+    [
+      "T1078",
+      5
+    ],
+    [
+      "T1204.001",
+      4
+    ]
+  ],
+  "exploitation_miss_rate": 0.8928571428571429,
+  "exploitation_n_with_gold": 56,
+  "primary_impact_miss_rate": 0.8513513513513513,
+  "primary_impact_n_with_gold": 74,
+  "example_misses": [
+    {
+      "id": "circl-CVE-2018-15771",
+      "predicted": [
+        "T1083"
+      ],
+      "expected": [
+        "T1005",
+        "T1078.001"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2013-1493",
+      "predicted": [
+        "T1499.004"
+      ],
+      "expected": [
+        "T1189",
+        "T1203"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2019-1886",
+      "predicted": [
+        "T1499"
+      ],
+      "expected": [
+        "T1489"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2011-3172",
+      "predicted": [
+        "T1556.003"
+      ],
+      "expected": [
+        "T1078.003"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2022-22947",
+      "predicted": [],
+      "expected": [
+        "T1059",
+        "T1190",
+        "T1486"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2025-21333",
+      "predicted": [],
+      "expected": [
+        "T1003",
+        "T1068"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2017-8570",
+      "predicted": [],
+      "expected": [
+        "T1203",
+        "T1204.002"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2024-24919",
+      "predicted": [
+        "T0888"
+      ],
+      "expected": [
+        "T1003.003",
+        "T1003.008",
+        "T1005",
+        "T1059.004",
+        "T1202"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2020-11054",
+      "predicted": [
+        "T1557"
+      ],
+      "expected": [
+        "T1189",
+        "T1190"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2010-0817",
+      "predicted": [],
+      "expected": [
+        "T1190"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2022-20703",
+      "predicted": [
+        "T1499"
+      ],
+      "expected": [
+        "T1203"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2020-3440",
+      "predicted": [
+        "T1499.004"
+      ],
+      "expected": [
+        "T1204.002",
+        "T1565.001",
+        "T1566"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    }
+  ],
+  "metrics": {
+    "n_total": 121,
+    "n_scored": 121,
+    "n_skipped": 0,
+    "mode": "agent",
+    "attack": {
+      "precision_at_k": 0.16115702479338842,
+      "primary_impact_canonical_recall_at_k": 0.1554054054054054,
+      "canonical_hit": 0.2396694214876033,
+      "primary_impact_recall_at_k": 0.12837837837837837,
+      "exploitation_hit": 0.10714285714285714,
+      "exploitation_recall_at_k": 0.09821428571428571,
+      "canonical_recall_at_k": 0.14336547291092744,
+      "primary_impact_hit": 0.14864864864864866,
+      "primary_impact_canonical_hit": 0.17567567567567569,
+      "hit": 0.19834710743801653,
+      "exploitation_canonical_recall_at_k": 0.09821428571428571,
+      "recall_at_k": 0.10663452708907253,
+      "exploitation_canonical_hit": 0.10714285714285714,
+      "hit_rate": 0.19834710743801653,
+      "n": 121,
+      "canonical_hit_rate": 0.2396694214876033,
+      "primary_impact_hit_rate": 0.14864864864864866,
+      "exploitation_hit_rate": 0.10714285714285714,
+      "primary_impact_canonical_hit_rate": 0.17567567567567569,
+      "exploitation_canonical_hit_rate": 0.10714285714285714
+    },
+    "attack_hit_rate": 0.19834710743801653,
+    "attack_recall_at_k": 0.10663452708907253,
+    "attack_canonical_hit_rate": 0.2396694214876033,
+    "attack_canonical_recall_at_k": 0.14336547291092744,
+    "attack_primary_impact_hit_rate": 0.14864864864864866,
+    "attack_exploitation_hit_rate": 0.10714285714285714,
+    "attack_primary_impact_canonical_hit_rate": 0.17567567567567569,
+    "attack_exploitation_canonical_hit_rate": 0.10714285714285714,
+    "recall_at_k": 0.10663452708907253,
+    "precision_at_k": 0.16115702479338842,
+    "hit_rate": 0.19834710743801653,
+    "canonical_hit_rate": 0.2396694214876033,
+    "canonical_recall_at_k": 0.14336547291092744,
+    "eval_rag": true,
+    "jobs": 8,
+    "refine_exploitation": false
+  },
+  "mode": "agent",
+  "protocol": "circl_test",
+  "refine_exploitation": false,
+  "jobs": 8,
+  "wall_seconds": 681.763885974884
+}

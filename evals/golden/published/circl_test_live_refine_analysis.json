@@ -1,0 +1,342 @@
+{
+  "n_scored": 121,
+  "hit_rate": 0.5041322314049587,
+  "empty_prediction_rate": 0.008264462809917356,
+  "top_false_positives": [
+    [
+      "T1190",
+      25
+    ],
+    [
+      "T1203",
+      23
+    ],
+    [
+      "T1210",
+      19
+    ],
+    [
+      "T1499.004",
+      13
+    ],
+    [
+      "T1404",
+      9
+    ],
+    [
+      "T0819",
+      9
+    ],
+    [
+      "T1068",
+      8
+    ],
+    [
+      "T1658",
+      7
+    ],
+    [
+      "T1189",
+      6
+    ],
+    [
+      "T1499",
+      5
+    ],
+    [
+      "T0866",
+      3
+    ],
+    [
+      "T1212",
+      3
+    ],
+    [
+      "T0830",
+      3
+    ],
+    [
+      "T1083",
+      2
+    ],
+    [
+      "T1204",
+      2
+    ]
+  ],
+  "top_false_negatives": [
+    [
+      "T1190",
+      16
+    ],
+    [
+      "T1059",
+      13
+    ],
+    [
+      "T1005",
+      11
+    ],
+    [
+      "T1203",
+      10
+    ],
+    [
+      "T1189",
+      10
+    ],
+    [
+      "T1204.002",
+      10
+    ],
+    [
+      "T1574",
+      9
+    ],
+    [
+      "T1068",
+      7
+    ],
+    [
+      "T1136",
+      6
+    ],
+    [
+      "T1105",
+      5
+    ],
+    [
+      "T1003",
+      5
+    ],
+    [
+      "T1485",
+      5
+    ],
+    [
+      "T1566",
+      4
+    ],
+    [
+      "T1078",
+      4
+    ],
+    [
+      "T1204.001",
+      4
+    ]
+  ],
+  "exploitation_miss_rate": 0.6071428571428571,
+  "exploitation_n_with_gold": 56,
+  "primary_impact_miss_rate": 0.8378378378378378,
+  "primary_impact_n_with_gold": 74,
+  "example_misses": [
+    {
+      "id": "circl-CVE-2018-15771",
+      "predicted": [
+        "T1083"
+      ],
+      "expected": [
+        "T1005",
+        "T1078.001"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2013-1493",
+      "predicted": [
+        "T1190",
+        "T1499.004"
+      ],
+      "expected": [
+        "T1189",
+        "T1203"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2019-15974",
+      "predicted": [
+        "T1566",
+        "T1204"
+      ],
+      "expected": [
+        "T1189",
+        "T1565.002"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2019-1886",
+      "predicted": [
+        "T1190",
+        "T1210",
+        "T1499"
+      ],
+      "expected": [
+        "T1489"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2011-3172",
+      "predicted": [
+        "T1556.003"
+      ],
+      "expected": [
+        "T1078.003"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2024-24919",
+      "predicted": [
+        "T1190",
+        "T1133",
+        "T0888"
+      ],
+      "expected": [
+        "T1003.003",
+        "T1003.008",
+        "T1005",
+        "T1059.004",
+        "T1202"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2020-11054",
+      "predicted": [
+        "T0817",
+        "T1557"
+      ],
+      "expected": [
+        "T1189",
+        "T1190"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2010-0817",
+      "predicted": [],
+      "expected": [
+        "T1190"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2022-20703",
+      "predicted": [
+        "T1190",
+        "T1210",
+        "T1499"
+      ],
+      "expected": [
+        "T1203"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2020-3440",
+      "predicted": [
+        "T1190",
+        "T1499.004"
+      ],
+      "expected": [
+        "T1204.002",
+        "T1565.001",
+        "T1566"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2020-1111",
+      "predicted": [
+        "T1203",
+        "T1210",
+        "T1499.004",
+        "T1574"
+      ],
+      "expected": [
+        "T1005",
+        "T1068",
+        "T1136",
+        "T1485",
+        "T1565"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    },
+    {
+      "id": "circl-CVE-2013-4854",
+      "predicted": [
+        "T0866",
+        "T1499"
+      ],
+      "expected": [
+        "T1499.004"
+      ],
+      "recall_at_k": 0.0,
+      "hit": 0.0
+    }
+  ],
+  "metrics": {
+    "n_total": 121,
+    "n_scored": 121,
+    "n_skipped": 0,
+    "mode": "agent",
+    "attack": {
+      "canonical_recall_at_k": 0.3276559299286572,
+      "primary_impact_canonical_hit": 0.17567567567567569,
+      "primary_impact_recall_at_k": 0.14189189189189189,
+      "canonical_hit": 0.5289256198347108,
+      "exploitation_hit": 0.39285714285714285,
+      "hit": 0.5041322314049587,
+      "primary_impact_hit": 0.16216216216216217,
+      "recall_at_k": 0.28771102634739,
+      "exploitation_canonical_hit": 0.39285714285714285,
+      "exploitation_recall_at_k": 0.36607142857142855,
+      "exploitation_canonical_recall_at_k": 0.36607142857142855,
+      "primary_impact_canonical_recall_at_k": 0.1554054054054054,
+      "precision_at_k": 0.28374655647382924,
+      "hit_rate": 0.5041322314049587,
+      "n": 121,
+      "canonical_hit_rate": 0.5289256198347108,
+      "primary_impact_hit_rate": 0.16216216216216217,
+      "exploitation_hit_rate": 0.39285714285714285,
+      "primary_impact_canonical_hit_rate": 0.17567567567567569,
+      "exploitation_canonical_hit_rate": 0.39285714285714285
+    },
+    "attack_hit_rate": 0.5041322314049587,
+    "attack_recall_at_k": 0.28771102634739,
+    "attack_canonical_hit_rate": 0.5289256198347108,
+    "attack_canonical_recall_at_k": 0.3276559299286572,
+    "attack_primary_impact_hit_rate": 0.16216216216216217,
+    "attack_exploitation_hit_rate": 0.39285714285714285,
+    "attack_primary_impact_canonical_hit_rate": 0.17567567567567569,
+    "attack_exploitation_canonical_hit_rate": 0.39285714285714285,
+    "recall_at_k": 0.28771102634739,
+    "precision_at_k": 0.28374655647382924,
+    "hit_rate": 0.5041322314049587,
+    "canonical_hit_rate": 0.5289256198347108,
+    "canonical_recall_at_k": 0.3276559299286572,
+    "eval_rag": true,
+    "jobs": 8,
+    "refine_exploitation": true
+  },
+  "mode": "agent",
+  "protocol": "circl_test",
+  "refine_exploitation": true,
+  "jobs": 8,
+  "wall_seconds": 734.7315788269043
+}

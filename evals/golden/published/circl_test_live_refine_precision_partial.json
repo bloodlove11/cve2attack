@@ -1,0 +1,113 @@
+{
+  "note": "PARTIAL run \u2014 ExperientialLabs insufficient_credits mid-eval; NOT of-record",
+  "n_ok": 34,
+  "n_fail": 87,
+  "new_ok_metrics": {
+    "n": 34,
+    "hit": 0.4117647058823529,
+    "recall@5": 0.2164781297134238,
+    "P@5": 0.39705882352941174,
+    "empty%": 11.764705882352942,
+    "pred_len": 1.0,
+    "exploit_hit": 0.2777777777777778,
+    "impact_hit": 0.13043478260869565,
+    "top_fp": [
+      [
+        "T1190",
+        5
+      ],
+      [
+        "T1499.004",
+        2
+      ],
+      [
+        "T1499",
+        2
+      ],
+      [
+        "T1203",
+        2
+      ],
+      [
+        "T1083",
+        1
+      ],
+      [
+        "T1557",
+        1
+      ]
+    ]
+  },
+  "old_same_ids_metrics": {
+    "n": 34,
+    "hit": 0.5588235294117647,
+    "recall@5": 0.31917420814479636,
+    "P@5": 0.3382352941176471,
+    "empty%": 0.0,
+    "pred_len": 2.323529411764706,
+    "exploit_hit": 0.5555555555555556,
+    "impact_hit": 0.17391304347826086,
+    "top_fp": [
+      [
+        "T1190",
+        7
+      ],
+      [
+        "T1210",
+        6
+      ],
+      [
+        "T1203",
+        5
+      ],
+      [
+        "T0819",
+        4
+      ],
+      [
+        "T1658",
+        3
+      ],
+      [
+        "T1499",
+        2
+      ]
+    ]
+  },
+  "ok_ids": [
+    "circl-CVE-2009-3041",
+    "circl-CVE-2010-2862",
+    "circl-CVE-2012-1535",
+    "circl-CVE-2014-6332",
+    "circl-CVE-2014-8439",
+    "circl-CVE-2017-6922",
+    "circl-CVE-2017-8291",
+    "circl-CVE-2018-10589",
+    "circl-CVE-2018-15764",
+    "circl-CVE-2018-15771",
+    "circl-CVE-2018-15961",
+    "circl-CVE-2018-18987",
+    "circl-CVE-2018-18995",
+    "circl-CVE-2018-8111",
+    "circl-CVE-2018-8852",
+    "circl-CVE-2019-1620",
+    "circl-CVE-2019-16760",
+    "circl-CVE-2019-2729",
+    "circl-CVE-2020-0758",
+    "circl-CVE-2020-11044",
+    "circl-CVE-2020-11054",
+    "circl-CVE-2020-3177",
+    "circl-CVE-2020-5250",
+    "circl-CVE-2020-9804",
+    "circl-CVE-2021-22986",
+    "circl-CVE-2021-34523",
+    "circl-CVE-2021-36380",
+    "circl-CVE-2021-44077",
+    "circl-CVE-2022-20703",
+    "circl-CVE-2023-20887",
+    "circl-CVE-2023-22527",
+    "circl-CVE-2023-27524",
+    "circl-CVE-2023-5217",
+    "circl-CVE-2024-37085"
+  ]
+}

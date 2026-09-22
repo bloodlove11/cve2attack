@@ -1,0 +1,40 @@
+# Dark cyber / security theme for CVE-to-ATT&CK Eval Agent
+
+[theme]
+base = "dark"
+primaryColor = "#22d3ee"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#111827"
+codeBackgroundColor = "#0f172a"
+textColor = "#e2e8f0"
+linkColor = "#38bdf8"
+borderColor = "#1e293b"
+codeTextColor = "#a5f3fc"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "13px"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["1.75rem", "1.4rem", "1.2rem", "1.05rem", "1rem", "0.9rem"]
+headingFontWeights = [600, 600, 500, 500, 500, 500]
+linkUnderline = false
+dataframeBorderColor = "#1e293b"
+dataframeHeaderBackgroundColor = "#111827"
+chartCategoricalColors = ["#22d3ee", "#38bdf8", "#34d399", "#a78bfa", "#f472b6", "#fbbf24", "#94a3b8"]
+blueColor = "#38bdf8"
+greenColor = "#34d399"
+yellowColor = "#fbbf24"
+redColor = "#f87171"
+violetColor = "#a78bfa"
+orangeColor = "#fb923c"
+grayColor = "#94a3b8"
+
+[theme.sidebar]
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#111827"
+codeBackgroundColor = "#0f172a"
+borderColor = "#1e293b"

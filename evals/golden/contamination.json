@@ -1,0 +1,17 @@
+{
+  "description": "Internal golden ATT&CK cases whose CVE ids also appear in the CIRCL official test split. Prompt, evidence-gate, and synonym work on the internal 50 lightly touches circl_test. Do not treat circl_test as fully unseen for those CVEs.",
+  "source_internal": "evals/golden/golden_dataset.json",
+  "source_circl_test": "evals/golden/heldout_circl_test_ids.json",
+  "circl_test_overlap_cves": [
+    "CVE-2018-8111",
+    "CVE-2019-0926",
+    "CVE-2019-16784",
+    "CVE-2020-1495",
+    "CVE-2020-4068"
+  ],
+  "heldout_n20_overlap_cves": [
+    "CVE-2018-8111",
+    "CVE-2020-1495",
+    "CVE-2020-4068"
+  ]
+}

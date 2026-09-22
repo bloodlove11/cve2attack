@@ -1,0 +1,47 @@
+{
+  "protocol": "deepseek_live_n20",
+  "description": "Frozen held-out CVE\u2192ATT&CK case IDs for the measured Live (DeepSeek) n=20 protocol. First 20 cve_to_attack cases in golden_dataset.json order (equivalent to --task cve_to_attack --limit 20 with seed=null). Do not cherry-pick or reorder for reporting.",
+  "task": "cve_to_attack",
+  "n": 20,
+  "selection": {
+    "source": "evals/golden/golden_dataset.json",
+    "method": "dataset_order_prefix",
+    "seed": null,
+    "limit": 20,
+    "frozen_at": "2026-09-07",
+    "notes": "Matches historical Live runs that used --limit 20 without --seed (file order). Multi-seed A/Bs still shuffle with fixed seeds for variance; primary headline numbers should use this held-out list via --heldout."
+  },
+  "case_ids": [
+    "attack-CVE-2019-6538",
+    "attack-CVE-2018-10610",
+    "attack-CVE-2018-14809",
+    "attack-CVE-2019-1715",
+    "attack-CVE-2020-11035",
+    "attack-CVE-2020-15093",
+    "attack-CVE-2020-11039",
+    "attack-CVE-2018-8110",
+    "attack-CVE-2018-8111",
+    "attack-CVE-2018-8248",
+    "attack-CVE-2018-8353",
+    "attack-CVE-2018-8355",
+    "attack-CVE-2019-0609",
+    "attack-CVE-2019-1118",
+    "attack-CVE-2020-1495",
+    "attack-CVE-2020-1569",
+    "attack-CVE-2020-3198",
+    "attack-CVE-2020-4068",
+    "attack-CVE-2020-16874",
+    "attack-CVE-2020-0671"
+  ],
+  "circl_import_future": {
+    "status": "implemented",
+    "hf_dataset": "CIRCL/vulnerability-attack-techniques",
+    "hf_url": "https://huggingface.co/datasets/CIRCL/vulnerability-attack-techniques",
+    "hf_revision": "319c3e324e7561592cf7e51ec003deb5dd90e61b",
+    "paper": "arXiv:2607.25572",
+    "protocol": "circl_test",
+    "heldout_file": "evals/golden/heldout_circl_test_ids.json",
+    "how_to_run": "python -m evals.golden.runner --mode agent --task cve_to_attack --heldout --protocol circl_test --jobs 1",
+    "notes": "deepseek_live_n20 remains a separate protocol until CIRCL Live numbers exist. Neighbor ICL uses CIRCL train only (hard-exclude test IDs). Never train on techniques_derived / LLM-expanded labels."
+  }
+}

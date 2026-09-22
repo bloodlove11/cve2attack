@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live ATT&amp;CK mapping pipeline</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600&family=Noto+Serif+KR:wght@400&family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --color-paper:   #f5f5f5;
+      --color-ink:     #2d3142;
+      --color-muted:   #4f5d75;
+      --color-accent:  #eb6c36;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif KR', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-paper);
+      color: var(--color-ink);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+    }
+
+    .frame { max-width: 1280px; width: 100%; }
+
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.5rem, 2.4vw + 0.75rem, 2rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--color-ink);
+      margin-bottom: 1.5rem;
+    }
+
+    svg { width: 100%; min-width: 960px; display: block; }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <p class="eyebrow">Architecture · Live pipeline</p>
+    <h1>Live ATT&amp;CK mapping</h1>
+
+    <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="live-attack-pipeline-title live-attack-pipeline-desc">
+      <title id="live-attack-pipeline-title">Live ATT&amp;CK mapping pipeline</title>
+      <desc id="live-attack-pipeline-desc">Architecture of predict_cve_to_attack: a CVE identifier is enriched from NVD or Zenodo, retrieval supplies ATT&amp;CK docs and neighbor ICL, two LLM passes propose techniques, and deterministic gates emit at most eight T-IDs. The target CVE’s gold labels are never looked up.</desc>
+      <defs>
+        <marker id="live-attack-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+        <marker id="live-attack-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#eb6c36"/></marker>
+        <marker id="live-attack-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+      </defs>
+
+      <rect width="100%" height="100%" fill="#f5f5f5"/>
+
+      <!-- Header (inside SVG so the README PNG stands alone) -->
+      <text x="48" y="64" fill="#4f5d75" font-size="8" font-weight="500" font-family="'Geist Mono', monospace" letter-spacing="0.18em">ARCHITECTURE · PREDICT_CVE_TO_ATTACK</text>
+      <text x="48" y="100" fill="#2d3142" font-size="28" font-weight="400" font-family="'Instrument Serif', serif">CVE identifier in, at most eight T-IDs out</text>
+      <text x="48" y="128" fill="#4f5d75" font-size="12" font-family="'Geist', sans-serif">Retrieval and gates filter the model. Gold is scoring-only.</text>
+
+      <!-- Zone: Retrieval (bg → zones → arrows → labels → nodes) -->
+      <rect x="336" y="256" width="240" height="128" rx="8"
+            fill="rgba(45,49,66,0.02)" stroke="rgba(45,49,66,0.10)" stroke-width="0.8"/>
+      <rect x="416" y="260" width="80" height="12" rx="2" fill="#f5f5f5"/>
+      <text x="456" y="268" fill="rgba(45,49,66,0.40)" font-size="8" font-family="'Geist Mono', monospace"
+            text-anchor="middle" letter-spacing="0.14em">RETRIEVAL</text>
+
+      <!-- Arrows -->
+      <!-- CVE → Enrich (external fetch) -->
+      <line x1="146" y1="328" x2="166" y2="328" stroke="#2e5aa8" stroke-width="1.2" marker-end="url(#live-attack-arrow-link)"/>
+      <!-- Enrich → Retrieval -->
+      <line x1="306" y1="328" x2="326" y2="328" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#live-attack-arrow)"/>
+      <!-- Retrieval → LLM pass 1 (primary) -->
+      <line x1="586" y1="328" x2="606" y2="328" stroke="#eb6c36" stroke-width="1.4" marker-end="url(#live-attack-arrow-accent)"/>
+      <!-- Pass 1 → Pass 2 -->
+      <line x1="770" y1="328" x2="790" y2="328" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#live-attack-arrow)"/>
+      <!-- Pass 2 → Gates -->
+      <line x1="938" y1="328" x2="958" y2="328" stroke="#eb6c36" stroke-width="1.4" marker-end="url(#live-attack-arrow-accent)"/>
+      <!-- Gates → Union -->
+      <line x1="1098" y1="328" x2="1118" y2="328" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#live-attack-arrow)"/>
+      <!-- Enrich → Pass 1 (always-on description; routed under the retrieval zone) -->
+      <path d="M 236,376 V 440 Q 236,448 244,448 H 680 Q 688,448 688,440 V 376"
+            fill="none" stroke="#4f5d75" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#live-attack-arrow)"/>
+
+      <!-- Arrow labels (mask 8px above stroke) -->
+      <rect x="442" y="428" width="40" height="12" rx="2" fill="#f5f5f5"/>
+      <text x="462" y="436" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.06em">DESC</text>
+
+      <!-- Node: CVE id (input) -->
+      <rect x="40" y="288" width="96" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="40" y="288" width="96" height="80" rx="6" fill="rgba(79,93,117,0.10)" stroke="#7a8399" stroke-width="1"/>
+      <rect x="48" y="296" width="24" height="12" rx="2" fill="transparent" stroke="rgba(122,131,153,0.40)" stroke-width="0.8"/>
+      <text x="60" y="304" fill="#7a8399" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">IN</text>
+      <text x="88" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">CVE id</text>
+      <text x="88" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">CVE-YYYY-n</text>
+
+      <!-- Node: Enrich (external) -->
+      <rect x="176" y="288" width="120" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="176" y="288" width="120" height="80" rx="6" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+      <rect x="184" y="296" width="32" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.22)" stroke-width="0.8"/>
+      <text x="200" y="304" fill="#7a8399" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">EXT</text>
+      <text x="236" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Enrich</text>
+      <text x="236" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">NVD / Zenodo</text>
+
+      <!-- Node: ATT&CK tech docs -->
+      <rect x="348" y="288" width="96" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="348" y="288" width="96" height="80" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="356" y="296" width="32" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/>
+      <text x="372" y="304" fill="#2d3142" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">DOC</text>
+      <text x="396" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Tech docs</text>
+      <text x="396" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">lexical</text>
+
+      <!-- Node: Neighbor ICL -->
+      <rect x="460" y="288" width="96" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="460" y="288" width="96" height="80" rx="6" fill="rgba(45,49,66,0.05)" stroke="#4f5d75" stroke-width="1"/>
+      <rect x="468" y="296" width="28" height="12" rx="2" fill="transparent" stroke="rgba(79,93,117,0.50)" stroke-width="0.8"/>
+      <text x="482" y="304" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">ICL</text>
+      <text x="508" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Neighbors</text>
+      <text x="508" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">k=3 excl.</text>
+
+      <!-- Node: LLM pass 1 (focal) -->
+      <rect x="616" y="288" width="144" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="616" y="288" width="144" height="80" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1"/>
+      <rect x="624" y="296" width="32" height="12" rx="2" fill="transparent" stroke="rgba(235,108,54,0.50)" stroke-width="0.8"/>
+      <text x="640" y="304" fill="#eb6c36" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">LLM</text>
+      <text x="688" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Pass 1</text>
+      <text x="688" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">two heads</text>
+
+      <!-- Node: LLM pass 2 -->
+      <rect x="800" y="288" width="128" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="800" y="288" width="128" height="80" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="808" y="296" width="32" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/>
+      <text x="824" y="304" fill="#2d3142" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">REF</text>
+      <text x="864" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Pass 2</text>
+      <text x="864" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">veto / fill</text>
+
+      <!-- Node: Gates (focal) -->
+      <rect x="968" y="288" width="120" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="968" y="288" width="120" height="80" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1"/>
+      <rect x="976" y="296" width="36" height="12" rx="2" fill="transparent" stroke="rgba(235,108,54,0.50)" stroke-width="0.8"/>
+      <text x="994" y="304" fill="#eb6c36" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">GATE</text>
+      <text x="1028" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Gates</text>
+      <text x="1028" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">quote · cap</text>
+
+      <!-- Node: Union output -->
+      <rect x="1128" y="288" width="112" height="80" rx="6" fill="#f5f5f5"/>
+      <rect x="1128" y="288" width="112" height="80" rx="6" fill="rgba(45,49,66,0.02)" stroke="rgba(45,49,66,0.20)" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="1136" y="296" width="32" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.22)" stroke-width="0.8"/>
+      <text x="1152" y="304" fill="#7a8399" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">OUT</text>
+      <text x="1184" y="332" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Union</text>
+      <text x="1184" y="348" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle">≤ 8 T-IDs</text>
+
+      <!-- Legend strip -->
+      <line x1="40" y1="652" x2="1240" y2="652" stroke="rgba(45,49,66,0.10)" stroke-width="0.8"/>
+      <text x="40" y="676" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" letter-spacing="0.18em">LEGEND</text>
+
+      <rect x="160" y="668" width="14" height="10" rx="2" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1"/>
+      <text x="180" y="676" fill="#4f5d75" font-size="8" font-family="'Geist', sans-serif">Focal (pass 1, gates)</text>
+
+      <rect x="360" y="668" width="14" height="10" rx="2" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <text x="380" y="676" fill="#4f5d75" font-size="8" font-family="'Geist', sans-serif">Stage</text>
+
+      <rect x="452" y="668" width="14" height="10" rx="2" fill="rgba(79,93,117,0.10)" stroke="#7a8399" stroke-width="1"/>
+      <text x="472" y="676" fill="#4f5d75" font-size="8" font-family="'Geist', sans-serif">Input</text>
+
+      <rect x="544" y="668" width="14" height="10" rx="2" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+      <text x="564" y="676" fill="#4f5d75" font-size="8" font-family="'Geist', sans-serif">External enrich</text>
+
+      <rect x="720" y="668" width="14" height="10" rx="2" fill="rgba(45,49,66,0.05)" stroke="#4f5d75" stroke-width="1"/>
+      <text x="740" y="676" fill="#4f5d75" font-size="8" font-family="'Geist', sans-serif">ICL store</text>
+
+      <line x1="848" y1="672" x2="880" y2="672" stroke="#eb6c36" stroke-width="1.4" marker-end="url(#live-attack-arrow-accent)"/>
+      <text x="888" y="676" fill="#4f5d75" font-size="8" font-family="'Geist', sans-serif">Primary flow</text>
+
+      <line x1="1016" y1="672" x2="1048" y2="672" stroke="#4f5d75" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#live-attack-arrow)"/>
+      <text x="1056" y="676" fill="#4f5d75" font-size="8" font-family="'Geist', sans-serif">Always-on description</text>
+    </svg>
+  </div>
+</body>
+</html>

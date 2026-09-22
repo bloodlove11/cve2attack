@@ -1,0 +1,11 @@
+{
+  "hf_dataset": "CIRCL/vulnerability-attack-techniques",
+  "hf_revision": "319c3e324e7561592cf7e51ec003deb5dd90e61b",
+  "files": {
+    "train": "train-00000-of-00001.parquet",
+    "test": "test-00000-of-00001.parquet"
+  },
+  "train_n": 1086,
+  "test_n": 121,
+  "frozen_at": "2026-09-07"
+}

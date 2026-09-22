@@ -1,0 +1,5177 @@
+{
+  "mode": "agent",
+  "task": "cve_to_attack",
+  "limit": 121,
+  "seed": null,
+  "jobs": 8,
+  "eval_rag": true,
+  "refine_exploitation": false,
+  "prep_cache": true,
+  "heldout": true,
+  "protocol": "circl_test",
+  "case_ids": [
+    "circl-CVE-2018-15771",
+    "circl-CVE-2013-1493",
+    "circl-CVE-2019-15974",
+    "circl-CVE-2019-1886",
+    "circl-CVE-2012-1535",
+    "circl-CVE-2011-3172",
+    "circl-CVE-2022-22947",
+    "circl-CVE-2025-21333",
+    "circl-CVE-2017-8570",
+    "circl-CVE-2024-24919",
+    "circl-CVE-2020-11054",
+    "circl-CVE-2010-0817",
+    "circl-CVE-2019-0926",
+    "circl-CVE-2014-3566",
+    "circl-CVE-2022-20703",
+    "circl-CVE-2020-3440",
+    "circl-CVE-2020-15132",
+    "circl-CVE-2020-1111",
+    "circl-CVE-2013-4854",
+    "circl-CVE-2016-6366",
+    "circl-CVE-2023-20887",
+    "circl-CVE-2015-2387",
+    "circl-CVE-2022-41073",
+    "circl-CVE-2014-0324",
+    "circl-CVE-2019-16784",
+    "circl-CVE-2014-1776",
+    "circl-CVE-2020-9804",
+    "circl-CVE-2018-18990",
+    "circl-CVE-2020-1495",
+    "circl-CVE-2020-11082",
+    "circl-CVE-2018-15764",
+    "circl-CVE-2019-1941",
+    "circl-CVE-2020-15162",
+    "circl-CVE-2018-15961",
+    "circl-CVE-2020-5369",
+    "circl-CVE-2019-3780",
+    "circl-CVE-2020-5264",
+    "circl-CVE-2012-0754",
+    "circl-CVE-2014-8439",
+    "circl-CVE-2018-11075",
+    "circl-CVE-2024-57727",
+    "circl-CVE-2022-37969",
+    "circl-CVE-2017-6922",
+    "circl-CVE-2019-1458",
+    "circl-CVE-2018-17908",
+    "circl-CVE-2011-0096",
+    "circl-CVE-2009-3041",
+    "circl-CVE-2021-34473",
+    "circl-CVE-2018-8111",
+    "circl-CVE-2020-5281",
+    "circl-CVE-2016-0167",
+    "circl-CVE-2023-7024",
+    "circl-CVE-2018-10589",
+    "circl-CVE-2023-36845",
+    "circl-CVE-2024-4761",
+    "circl-CVE-2012-1723",
+    "circl-CVE-2019-1620",
+    "circl-CVE-2023-47565",
+    "circl-CVE-2025-32709",
+    "circl-CVE-2018-5463",
+    "circl-CVE-2022-43769",
+    "circl-CVE-2016-0165",
+    "circl-CVE-2020-5231",
+    "circl-CVE-2020-11044",
+    "circl-CVE-2014-7247",
+    "circl-CVE-2023-22527",
+    "circl-CVE-2013-3163",
+    "circl-CVE-2015-0071",
+    "circl-CVE-2025-24991",
+    "circl-CVE-2020-3177",
+    "circl-CVE-2021-42237",
+    "circl-CVE-2020-3416",
+    "circl-CVE-2012-6685",
+    "circl-CVE-2021-44077",
+    "circl-CVE-2018-7526",
+    "circl-CVE-2013-5065",
+    "circl-CVE-2018-5459",
+    "circl-CVE-2017-8291",
+    "circl-CVE-2020-3309",
+    "circl-CVE-2019-16760",
+    "circl-CVE-2019-0880",
+    "circl-CVE-2020-5250",
+    "circl-CVE-2018-17910",
+    "circl-CVE-2010-1424",
+    "circl-CVE-2013-5057",
+    "circl-CVE-2023-6548",
+    "circl-CVE-2014-6332",
+    "circl-CVE-2019-13922",
+    "circl-CVE-2018-18995",
+    "circl-CVE-2016-5062",
+    "circl-CVE-2020-3513",
+    "circl-CVE-2011-2462",
+    "circl-CVE-2023-5217",
+    "circl-CVE-2009-3129",
+    "circl-CVE-2020-5267",
+    "circl-CVE-2016-1019",
+    "circl-CVE-2021-36380",
+    "circl-CVE-2023-36844",
+    "circl-CVE-2020-1020",
+    "circl-CVE-2024-37085",
+    "circl-CVE-2013-7102",
+    "circl-CVE-2020-11896",
+    "circl-CVE-2018-18987",
+    "circl-CVE-2018-8852",
+    "circl-CVE-2023-26360",
+    "circl-CVE-2020-0758",
+    "circl-CVE-2019-1704",
+    "circl-CVE-2015-0072",
+    "circl-CVE-2020-4068",
+    "circl-CVE-2023-27524",
+    "circl-CVE-2025-21334",
+    "circl-CVE-2024-5274",
+    "circl-CVE-2018-11059",
+    "circl-CVE-2019-2729",
+    "circl-CVE-2014-1809",
+    "circl-CVE-2021-22986",
+    "circl-CVE-2024-57968",
+    "circl-CVE-2018-11088",
+    "circl-CVE-2021-34523",
+    "circl-CVE-2020-11021",
+    "circl-CVE-2010-2862"
+  ],
+  "generated_at": "2026-09-08T02:39:00.579187+00:00",
+  "metrics": {
+    "n_total": 121,
+    "n_scored": 121,
+    "n_skipped": 0,
+    "mode": "agent",
+    "attack": {
+      "precision_at_k": 0.16115702479338842,
+      "primary_impact_canonical_recall_at_k": 0.1554054054054054,
+      "canonical_hit": 0.2396694214876033,
+      "primary_impact_recall_at_k": 0.12837837837837837,
+      "exploitation_hit": 0.10714285714285714,
+      "exploitation_recall_at_k": 0.09821428571428571,
+      "canonical_recall_at_k": 0.14336547291092744,
+      "primary_impact_hit": 0.14864864864864866,
+      "primary_impact_canonical_hit": 0.17567567567567569,
+      "hit": 0.19834710743801653,
+      "exploitation_canonical_recall_at_k": 0.09821428571428571,
+      "recall_at_k": 0.10663452708907253,
+      "exploitation_canonical_hit": 0.10714285714285714,
+      "hit_rate": 0.19834710743801653,
+      "n": 121,
+      "canonical_hit_rate": 0.2396694214876033,
+      "primary_impact_hit_rate": 0.14864864864864866,
+      "exploitation_hit_rate": 0.10714285714285714,
+      "primary_impact_canonical_hit_rate": 0.17567567567567569,
+      "exploitation_canonical_hit_rate": 0.10714285714285714
+    },
+    "attack_hit_rate": 0.19834710743801653,
+    "attack_recall_at_k": 0.10663452708907253,
+    "attack_canonical_hit_rate": 0.2396694214876033,
+    "attack_canonical_recall_at_k": 0.14336547291092744,
+    "attack_primary_impact_hit_rate": 0.14864864864864866,
+    "attack_exploitation_hit_rate": 0.10714285714285714,
+    "attack_primary_impact_canonical_hit_rate": 0.17567567567567569,
+    "attack_exploitation_canonical_hit_rate": 0.10714285714285714,
+    "recall_at_k": 0.10663452708907253,
+    "precision_at_k": 0.16115702479338842,
+    "hit_rate": 0.19834710743801653,
+    "canonical_hit_rate": 0.2396694214876033,
+    "canonical_recall_at_k": 0.14336547291092744,
+    "eval_rag": true,
+    "jobs": 8,
+    "refine_exploitation": false
+  },
+  "results": [
+    {
+      "id": "circl-CVE-2018-15771",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1083"
+        ],
+        "attack_techniques": [
+          "T1083"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1078.001"
+        ],
+        "primary_impact": [
+          "T1078.001"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2013-1493",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-15974",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1557"
+        ],
+        "primary_impact": [
+          "T1565.002"
+        ],
+        "attack_techniques": [
+          "T1557",
+          "T1565.002"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1565.002"
+        ],
+        "primary_impact": [
+          "T1565.002"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2019-1886",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499"
+        ],
+        "attack_techniques": [
+          "T1499"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1489"
+        ],
+        "primary_impact": [
+          "T1489"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2012-1535",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1499"
+        ],
+        "attack_techniques": [
+          "T1204.002",
+          "T1499"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1105",
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1105"
+        ],
+        "exploitation_techniques": [
+          "T1204.002"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2011-3172",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1556.003"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1556.003"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1078.003"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2022-22947",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190",
+          "T1486"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2025-21333",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1068"
+        ],
+        "primary_impact": [
+          "T1003"
+        ],
+        "exploitation_techniques": [
+          "T1068"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2017-8570",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2024-24919",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T0888"
+        ],
+        "attack_techniques": [
+          "T0888"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1003.003",
+          "T1003.008",
+          "T1005",
+          "T1059.004",
+          "T1202"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "exploitation_techniques": [
+          "T1202"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-11054",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1557"
+        ],
+        "attack_techniques": [
+          "T1557"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2010-0817",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-0926",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203",
+          "T1499.004",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1189",
+          "T1203"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.25,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.25,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 0.5,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 0.5,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2014-3566",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1557"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1557"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1557"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 1.0,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2022-20703",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499"
+        ],
+        "attack_techniques": [
+          "T1499"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": [
+          "T1203"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-3440",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1204.002",
+          "T1565.001",
+          "T1566"
+        ],
+        "primary_impact": [
+          "T1565.001"
+        ],
+        "exploitation_techniques": [
+          "T1204.002",
+          "T1566"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-15132",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1589.002"
+        ],
+        "primary_impact": [
+          "T1589"
+        ],
+        "attack_techniques": [
+          "T1589.002",
+          "T1589"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1589"
+        ],
+        "primary_impact": [
+          "T1589"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 2.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2020-1111",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ],
+        "attack_techniques": [
+          "T1499.004",
+          "T1574"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1068",
+          "T1136",
+          "T1485",
+          "T1565"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2013-4854",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T0866"
+        ],
+        "primary_impact": [
+          "T1499"
+        ],
+        "attack_techniques": [
+          "T0866",
+          "T1499"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2016-6366",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1210",
+          "T1068"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1210",
+          "T1068"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-20887",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2015-2387",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2022-41073",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1078",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2014-0324",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-16784",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1574.008"
+        ],
+        "attack_techniques": [
+          "T1574.008"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059.006",
+          "T1068",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1068",
+          "T1190"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2014-1776",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203",
+          "T1499"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-9804",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1427"
+        ],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1427",
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1091",
+          "T1499.004"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2018-18990",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T0882"
+        ],
+        "attack_techniques": [
+          "T0882"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-1495",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1204.002",
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1136",
+          "T1204.002",
+          "T1485",
+          "T1499.004",
+          "T1565",
+          "T1566",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1204.002",
+          "T1566"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.25,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.25,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 0.5,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 0.5,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 0.5,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 0.5
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2020-11082",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1204.001",
+          "T1557"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-15764",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-1941",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1204.001"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "attack_techniques": [
+          "T1204.001",
+          "T1059.007"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1204.001",
+          "T1557"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.6666666666666666,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.6666666666666666,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2020-15162",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1204.004"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1204.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1185"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-15961",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1491",
+          "T1491.002",
+          "T1505.003"
+        ],
+        "primary_impact": [
+          "T1491.002"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-5369",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1068"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "attack_techniques": [
+          "T1068",
+          "T1005"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2019-3780",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1552.001"
+        ],
+        "attack_techniques": [
+          "T1552.001"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1552.001"
+        ],
+        "primary_impact": [
+          "T1552.001"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2020-5264",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1189"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1204.001",
+          "T1557"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2012-0754",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1105",
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1105"
+        ],
+        "exploitation_techniques": [
+          "T1204.002"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2014-8439",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": [
+          "T1189"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-11075",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "attack_techniques": [
+          "T1189",
+          "T1059.007"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1185",
+          "T1204.002"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "exploitation_techniques": [
+          "T1204.002"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.3333333333333333,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2024-57727",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1602"
+        ],
+        "attack_techniques": [
+          "T1602"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1059",
+          "T1190",
+          "T1552.001",
+          "T1552.004"
+        ],
+        "primary_impact": [
+          "T1003",
+          "T1552.001",
+          "T1552.004"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2022-37969",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1068",
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2017-6922",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1083"
+        ],
+        "attack_techniques": [
+          "T1083"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1083",
+          "T1211"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2019-1458",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-17908",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T0863"
+        ],
+        "primary_impact": [
+          "T1548.004"
+        ],
+        "attack_techniques": [
+          "T0863",
+          "T1548.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1685"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "exploitation_techniques": [
+          "T1685"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2011-0096",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2009-3041",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1664"
+        ],
+        "primary_impact": [
+          "T1470"
+        ],
+        "attack_techniques": [
+          "T1664",
+          "T1470"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2021-34473",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1505.003"
+        ],
+        "attack_techniques": [
+          "T1505.003"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1048.003",
+          "T1053.005",
+          "T1136",
+          "T1190",
+          "T1486"
+        ],
+        "primary_impact": [
+          "T1053.005"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-8111",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1136",
+          "T1204.002",
+          "T1485",
+          "T1499.004",
+          "T1565",
+          "T1566",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1204.002",
+          "T1566"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.125,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.125,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 0.5,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 0.5,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2020-5281",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1602"
+        ],
+        "attack_techniques": [
+          "T1602"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2016-0167",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1608"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-7024",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-10589",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1202"
+        ],
+        "primary_impact": [
+          "T1202"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-36845",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2024-4761",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1189"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": [
+          "T1059"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2012-1723",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T0866"
+        ],
+        "attack_techniques": [
+          "T0866"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-1620",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1565.002"
+        ],
+        "attack_techniques": [
+          "T1565.002"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1105"
+        ],
+        "primary_impact": [
+          "T1105"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-47565",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1496",
+          "T1498"
+        ],
+        "primary_impact": [
+          "T1496"
+        ],
+        "exploitation_techniques": [
+          "T1203"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2025-32709",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1059",
+          "T1068",
+          "T1543",
+          "T1608.001"
+        ],
+        "primary_impact": [
+          "T1003",
+          "T1059",
+          "T1543",
+          "T1608.001"
+        ],
+        "exploitation_techniques": [
+          "T1068"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-5463",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1574"
+        ],
+        "attack_techniques": [
+          "T1574"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2022-43769",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1505.003"
+        ],
+        "attack_techniques": [
+          "T1505.003"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": [
+          "T1203"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2016-0165",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1608"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-5231",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1134.002"
+        ],
+        "primary_impact": [
+          "T1134.003"
+        ],
+        "attack_techniques": [
+          "T1134.002",
+          "T1134.003"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1078.001",
+          "T1136"
+        ],
+        "primary_impact": [
+          "T1078.001"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-11044",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 1.0,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2014-7247",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1204.002"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2023-22527",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "attack_techniques": [
+          "T1059.007"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1221",
+          "T1496"
+        ],
+        "primary_impact": [
+          "T1496"
+        ],
+        "exploitation_techniques": [
+          "T1221"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2013-3163",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1203",
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2015-0071",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1189"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203",
+          "T1204.001"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.3333333333333333,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2025-24991",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1213"
+        ],
+        "attack_techniques": [
+          "T1213"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1091"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "exploitation_techniques": [
+          "T1091"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-3177",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1083"
+        ],
+        "attack_techniques": [
+          "T1083"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2021-42237",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-3416",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1037"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1037"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1078",
+          "T1542.004"
+        ],
+        "primary_impact": [
+          "T1542.004"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2012-6685",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1005"
+        ],
+        "attack_techniques": [
+          "T1005"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1046"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2021-44077",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1003.003",
+          "T1027",
+          "T1047",
+          "T1070.004",
+          "T1087.002",
+          "T1136",
+          "T1140",
+          "T1190",
+          "T1218",
+          "T1505.003",
+          "T1560.001",
+          "T1573.001"
+        ],
+        "primary_impact": [
+          "T1505.003"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-7526",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1550.001"
+        ],
+        "attack_techniques": [
+          "T1550.001"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2013-5065",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "zenodo",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1548.002"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-5459",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499"
+        ],
+        "attack_techniques": [
+          "T1499"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1485",
+          "T1565.001"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2017-8291",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-3309",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "primary_impact": [
+          "T1601"
+        ],
+        "attack_techniques": [
+          "T1210",
+          "T1601"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1133",
+          "T1190",
+          "T1565.001",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1133",
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-16760",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1195.001"
+        ],
+        "primary_impact": [
+          "T1474.001"
+        ],
+        "attack_techniques": [
+          "T1195.001",
+          "T1474.001"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1190"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-0880",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-5250",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "attack_techniques": [
+          "T1189",
+          "T1005"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1036"
+        ],
+        "primary_impact": [
+          "T1036"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-17910",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1574"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2010-1424",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1204"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1204"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2013-5057",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-6548",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1055"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": [
+          "T1055"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2014-6332",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-13922",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "primary_impact": [
+          "T1552.001"
+        ],
+        "attack_techniques": [
+          "T1210",
+          "T1552.001"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1552"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 1.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-18995",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T0816",
+          "T1602.002"
+        ],
+        "attack_techniques": [
+          "T0816",
+          "T1602.002"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1213",
+          "T1529"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2016-5062",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-3513",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1037"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "attack_techniques": [
+          "T1037",
+          "T1068"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1078",
+          "T1542.004"
+        ],
+        "primary_impact": [
+          "T1542.004"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2011-2462",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": [
+          "T1204.002"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-5217",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1204.001",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1204.001"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2009-3129",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-5267",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1185"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2016-1019",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1105",
+          "T1189",
+          "T1486"
+        ],
+        "primary_impact": [
+          "T1105"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2021-36380",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1059.004"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1059.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059.004",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059.004"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2023-36844",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1574.007"
+        ],
+        "attack_techniques": [
+          "T1574.007"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1190"
+        ],
+        "exploitation_techniques": [
+          "T1203"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-1020",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1566"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2024-37085",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1611"
+        ],
+        "attack_techniques": [
+          "T1078",
+          "T1611"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1078",
+          "T1608.001"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.3333333333333333,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2013-7102",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-11896",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1203",
+          "T1499"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-18987",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1499.004",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.3333333333333333,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.3333333333333333,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2018-8852",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1539"
+        ],
+        "attack_techniques": [
+          "T1539"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1563"
+        ],
+        "primary_impact": [
+          "T1563"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-26360",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "attack_techniques": [
+          "T1190",
+          "T1059"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1003.001",
+          "T1036.005",
+          "T1046",
+          "T1059.007",
+          "T1071.001",
+          "T1105",
+          "T1190",
+          "T1484.001",
+          "T1505.003"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.1111111111111111,
+        "precision_at_k": 0.5,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.2222222222222222,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2020-0758",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1210"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1098"
+        ],
+        "primary_impact": [
+          "T1068"
+        ],
+        "exploitation_techniques": [
+          "T1098"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2019-1704",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1210"
+        ],
+        "primary_impact": [
+          "T1499.004"
+        ],
+        "attack_techniques": [
+          "T1210",
+          "T1499.004"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190",
+          "T1499"
+        ],
+        "primary_impact": [
+          "T1499"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2015-0072",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T0830"
+        ],
+        "attack_techniques": [
+          "T0830"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-4068",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1055.003"
+        ],
+        "attack_techniques": [
+          "T1055.003"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1091",
+          "T1133",
+          "T1189",
+          "T1190",
+          "T1204.002",
+          "T1499.004",
+          "T1566",
+          "T1574"
+        ],
+        "primary_impact": [
+          "T1499.004",
+          "T1574"
+        ],
+        "exploitation_techniques": [
+          "T1091",
+          "T1133",
+          "T1189",
+          "T1190",
+          "T1204.002",
+          "T1566"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2023-27524",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1078"
+        ],
+        "attack_techniques": [
+          "T1078"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1078",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1078"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2025-21334",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1003",
+          "T1068"
+        ],
+        "primary_impact": [
+          "T1003"
+        ],
+        "exploitation_techniques": [
+          "T1068"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2024-5274",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1189",
+          "T1203"
+        ],
+        "primary_impact": [
+          "T1203"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-11059",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "attack_techniques": [
+          "T1189",
+          "T1059.007"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059.007",
+          "T1185",
+          "T1189"
+        ],
+        "primary_impact": [
+          "T1059.007"
+        ],
+        "exploitation_techniques": [
+          "T1189"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.6666666666666666,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.6666666666666666,
+        "primary_impact_hit": 1.0,
+        "primary_impact_recall_at_k": 1.0,
+        "primary_impact_canonical_hit": 1.0,
+        "primary_impact_canonical_recall_at_k": 1.0,
+        "exploitation_hit": 1.0,
+        "exploitation_recall_at_k": 1.0,
+        "exploitation_canonical_hit": 1.0,
+        "exploitation_canonical_recall_at_k": 1.0
+      },
+      "correct": true
+    },
+    {
+      "id": "circl-CVE-2019-2729",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2014-1809",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1189"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1189"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2021-22986",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "zenodo",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1090",
+          "T1133",
+          "T1190",
+          "T1485"
+        ],
+        "primary_impact": [
+          "T1059",
+          "T1090"
+        ],
+        "exploitation_techniques": [
+          "T1133",
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2024-57968",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [
+          "T1608.002"
+        ],
+        "attack_techniques": [
+          "T1608.002"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1059",
+          "T1078"
+        ],
+        "primary_impact": [
+          "T1059"
+        ],
+        "exploitation_techniques": [
+          "T1078"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2018-11088",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1212"
+        ],
+        "primary_impact": [
+          "T1078"
+        ],
+        "attack_techniques": [
+          "T1212",
+          "T1078"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1068",
+          "T1552"
+        ],
+        "primary_impact": [
+          "T1552"
+        ],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2021-34523",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [],
+        "primary_impact": [],
+        "attack_techniques": [],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1190"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2020-11021",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1557"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1557"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1005",
+          "T1190"
+        ],
+        "primary_impact": [
+          "T1005"
+        ],
+        "exploitation_techniques": [
+          "T1190"
+        ]
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.0,
+        "precision_at_k": 0.0,
+        "hit": 0.0,
+        "canonical_hit": 0.0,
+        "canonical_recall_at_k": 0.0,
+        "primary_impact_hit": 0.0,
+        "primary_impact_recall_at_k": 0.0,
+        "primary_impact_canonical_hit": 0.0,
+        "primary_impact_canonical_recall_at_k": 0.0,
+        "exploitation_hit": 0.0,
+        "exploitation_recall_at_k": 0.0,
+        "exploitation_canonical_hit": 0.0,
+        "exploitation_canonical_recall_at_k": 0.0
+      },
+      "correct": false
+    },
+    {
+      "id": "circl-CVE-2010-2862",
+      "task": "cve_to_attack",
+      "prediction": {
+        "exploitation_techniques": [
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "attack_techniques": [
+          "T1204.002"
+        ],
+        "mode": "agent_llm",
+        "enrichment_source": "nvd",
+        "llm_calls": 1,
+        "refine_exploitation": false,
+        "prep_cache_hit": false
+      },
+      "expected": {
+        "attack_techniques": [
+          "T1203",
+          "T1204.002"
+        ],
+        "primary_impact": [],
+        "exploitation_techniques": []
+      },
+      "skipped": false,
+      "scores": {
+        "recall_at_k": 0.5,
+        "precision_at_k": 1.0,
+        "hit": 1.0,
+        "canonical_hit": 1.0,
+        "canonical_recall_at_k": 0.5
+      },
+      "correct": true
+    }
+  ],
+  "wall_seconds": 681.763885974884
+}

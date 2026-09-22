@@ -1,0 +1,44 @@
+services:
+  agent-api:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - .env
+    environment:
+      EXPLABS_BASE_URL: ${EXPLABS_BASE_URL:-https://api.experientiallabs.ai/v1}
+      EXPLABS_MODEL: ${EXPLABS_MODEL:-deepseek-v4-flash}
+      # Published bind default-deny: require CHAT_API_KEY (override with CHAT_ALLOW_UNAUTHENTICATED=1)
+      CHAT_REQUIRE_API_KEY: ${CHAT_REQUIRE_API_KEY:-1}
+      CHAT_API_KEY: ${CHAT_API_KEY:-}
+      CHAT_ALLOW_UNAUTHENTICATED: ${CHAT_ALLOW_UNAUTHENTICATED:-}
+    volumes:
+      - ./traces:/app/traces
+    command: ["uvicorn", "src.api.server:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  # Optional Streamlit chat UI (port 8501). Start with: docker compose --profile ui up agent-ui
+  agent-ui:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    env_file:
+      - .env
+    environment:
+      EXPLABS_BASE_URL: ${EXPLABS_BASE_URL:-https://api.experientiallabs.ai/v1}
+      EXPLABS_MODEL: ${EXPLABS_MODEL:-deepseek-v4-flash}
+    volumes:
+      - ./traces:/app/traces
+    command:
+      [
+        "streamlit",
+        "run",
+        "src/ui/app.py",
+        "--server.port",
+        "8501",
+        "--server.address",
+        "0.0.0.0",
+        "--browser.gatherUsageStats",
+        "false",
+      ]
+    profiles:
+      - ui
