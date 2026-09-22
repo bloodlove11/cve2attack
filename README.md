@@ -52,9 +52,9 @@ flowchart LR
 
 Eval Lab, CLI, and Chat all call the same shared pipeline (`evals.golden.live_attack.predict_cve_to_attack`).
 
-![Eval Lab + Chat demo placeholder](docs/diagrams/eval-lab-demo-placeholder.svg)
+![Eval Lab on CIRCL test, limit 10](docs/diagrams/eval-lab-demo.png)
 
-_Placeholder for a ≤30s capture: Eval Lab on 10 CIRCL cases + one Chat card for `CVE-2021-44228`. Drop a screenshot or GIF at `docs/diagrams/eval-lab-demo.gif` when you have a Live run._
+_Streamlit Eval Lab (`Golden eval`) set to CIRCL official test and Limit 10. The scored table is the first 10 rows of the published Live artifact `evals/golden/published/circl_test_live_refine.json`, loaded offline — not a HEAD rerun, and not the n=121 0.504 figure above. Cost is blank because that JSON has no provider usage._
 
 ---
 
